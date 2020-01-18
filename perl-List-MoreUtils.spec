@@ -1,6 +1,6 @@
 Name:		perl-List-MoreUtils
 Version:	0.33
-Release:	7%{?dist}
+Release:	9%{?dist}
 Summary:	Provide the stuff missing in List::Util
 Group:		Development/Libraries
 License:	GPL+ or Artistic
@@ -69,6 +69,12 @@ rm -rf %{buildroot}
 %{_mandir}/man3/List::MoreUtils.3pm*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.33-9
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.33-8
+- Mass rebuild 2013-12-27
+
 * Wed Oct 17 2012 Paul Howarth <paul@city-fan.org> - 0.33-7
 - BR:/R: perl(Carp)
 - BR: perl(constant), perl(Exporter) and perl(ExtUtils::CBuilder)
